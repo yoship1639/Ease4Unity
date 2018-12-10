@@ -96,9 +96,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f9e97329286e904b85974b03ef03873, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Type: 0
-  From: {x: 0, y: 0, z: 0}
-  To: {x: 0, y: 0, z: 0}
+  Type: 31
+  From: {x: -16, y: 0, z: -15}
+  To: {x: 16, y: 0, z: -15}
   Interval: 2
 --- !u!135 &135968501541451326
 SphereCollider:

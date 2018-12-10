@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Runtime.CompilerServices;
+using UnityEngine;
 
 public enum EaseType
 {
@@ -416,5 +417,145 @@ public static class Ease
     }
     #endregion
 
+    #region Vector2
+    public static Vector2 Spring(Vector2 s, Vector2 e, float t)
+    {
+        return Vector2.LerpUnclamped(s, e, Spring(0f, 1f, t));
+    }
 
+    public static Vector2 QuadIn(Vector2 s, Vector2 e, float t)
+    {
+        return Vector2.LerpUnclamped(s, e, QuadIn(0f, 1f, t));
+    }
+
+    public static Vector2 QuadOut(Vector2 s, Vector2 e, float t)
+    {
+        return Vector2.LerpUnclamped(s, e, QuadOut(0f, 1f, t));
+    }
+
+    public static Vector2 QuadInOut(Vector2 s, Vector2 e, float t)
+    {
+        return Vector2.LerpUnclamped(s, e, QuadInOut(0f, 1f, t));
+    }
+
+    public static Vector2 CubicIn(Vector2 s, Vector2 e, float t)
+    {
+        return Vector2.LerpUnclamped(s, e, CubicIn(0f, 1f, t));
+    }
+
+    public static Vector2 CubicOut(Vector2 s, Vector2 e, float t)
+    {
+        return Vector2.LerpUnclamped(s, e, CubicOut(0f, 1f, t));
+    }
+
+    public static Vector2 CubicInOut(Vector2 s, Vector2 e, float t)
+    {
+        return Vector2.LerpUnclamped(s, e, CubicInOut(0f, 1f, t));
+    }
+
+    public static Vector2 QuartIn(Vector2 s, Vector2 e, float t)
+    {
+        return Vector2.LerpUnclamped(s, e, QuartIn(0f, 1f, t));
+    }
+
+    public static Vector2 QuartOut(Vector2 s, Vector2 e, float t)
+    {
+        return Vector2.LerpUnclamped(s, e, QuartOut(0f, 1f, t));
+    }
+
+    public static Vector2 QuartInOut(Vector2 s, Vector2 e, float t)
+    {
+        return Vector2.LerpUnclamped(s, e, QuartInOut(0f, 1f, t));
+    }
+
+    public static Vector2 QuintIn(Vector2 s, Vector2 e, float t)
+    {
+        return Vector2.LerpUnclamped(s, e, QuintIn(0f, 1f, t));
+    }
+
+    public static Vector2 QuintOut(Vector2 s, Vector2 e, float t)
+    {
+        return Vector2.LerpUnclamped(s, e, QuintOut(0f, 1f, t));
+    }
+
+    public static Vector2 QuintInOut(Vector2 s, Vector2 e, float t)
+    {
+        return Vector2.LerpUnclamped(s, e, QuintInOut(0f, 1f, t));
+    }
+
+    public static Vector2 SinIn(Vector2 s, Vector2 e, float t)
+    {
+        return Vector2.LerpUnclamped(s, e, SinIn(0f, 1f, t));
+    }
+
+    public static Vector2 SinOut(Vector2 s, Vector2 e, float t)
+    {
+        return Vector2.LerpUnclamped(s, e, SinOut(0f, 1f, t));
+    }
+
+    public static Vector2 SinInOut(Vector2 s, Vector2 e, float t)
+    {
+        return Vector2.LerpUnclamped(s, e, SinInOut(0f, 1f, t));
+    }
+
+    public static Vector2 ExpIn(Vector2 s, Vector2 e, float t)
+    {
+        return Vector2.LerpUnclamped(s, e, ExpIn(0f, 1f, t));
+    }
+
+    public static Vector2 ExpOut(Vector2 s, Vector2 e, float t)
+    {
+        return Vector2.LerpUnclamped(s, e, ExpOut(0f, 1f, t));
+    }
+
+    public static Vector2 ExpInOut(Vector2 s, Vector2 e, float t)
+    {
+        return Vector2.LerpUnclamped(s, e, ExpInOut(0f, 1f, t));
+    }
+
+    public static Vector2 CircleIn(Vector2 s, Vector2 e, float t)
+    {
+        return Vector2.LerpUnclamped(s, e, CircleIn(0f, 1f, t));
+    }
+
+    public static Vector2 CircleOut(Vector2 s, Vector2 e, float t)
+    {
+        return Vector2.LerpUnclamped(s, e, CircleOut(0f, 1f, t));
+    }
+
+    public static Vector2 CircleInOut(Vector2 s, Vector2 e, float t)
+    {
+        return Vector2.LerpUnclamped(s, e, CircleInOut(0f, 1f, t));
+    }
+
+    public static Vector2 BounceIn(Vector2 s, Vector2 e, float t)
+    {
+        return Vector2.LerpUnclamped(s, e, BounceIn(0f, 1f, t));
+    }
+
+    public static Vector2 BounceOut(Vector2 s, Vector2 e, float t)
+    {
+        return Vector2.LerpUnclamped(s, e, BounceOut(0f, 1f, t));
+    }
+
+    public static Vector2 BounceInOut(Vector2 s, Vector2 e, float t)
+    {
+        return Vector2.LerpUnclamped(s, e, BounceInOut(0f, 1f, t));
+    }
+
+    public static Vector2 BackIn(Vector2 s, Vector2 e, float t)
+    {
+        return Vector2.LerpUnclamped(s, e, BackIn(0f, 1f, t));
+    }
+
+    public static Vector2 BackOut(Vector2 s, Vector2 e, float t)
+    {
+        return Vector2.LerpUnclamped(s, e, BackOut(0f, 1f, t));
+    }
+
+    public static Vector2 BackInOut(Vector2 s, Vector2 e, float t)
+    {
+        return Vector2.LerpUnclamped(s, e, BackInOut(0f, 1f, t));
+    }
+    #endregion
 }
