@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class TestEaseFactoryScript : MonoBehaviour
+public class EasingTestFactoryScript : MonoBehaviour
 {
     void Start()
     {
